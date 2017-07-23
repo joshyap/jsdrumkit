@@ -1,20 +1,28 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/3MDamGE.jpg) bottom center;
-  background-size: cover;
+  /*background: url(http://i.imgur.com/3MDamGE.jpg) bottom center;*/
+  /*background: url(memphis-colorful.png);*/
+  background: url(escheresque_ste.png);
+  /*background-size: cover;*/
+  background-repeat: repeat;
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
 }
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
+  font-family: 'Raleway', sans-serif;
 }
 
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 30vh;
   align-items: center;
   justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 0;
 }
 
 .key {
@@ -29,6 +37,7 @@ body,html {
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  font-family: 'Raleway', sans-serif;
 }
 
 .playing {
@@ -40,6 +49,7 @@ body,html {
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 .sound {
@@ -47,4 +57,18 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.headerSection {
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 3vw;
+  width: 50%;
+  margin: 7% auto 0 auto;
+}
+
+.headerSection > p {
+  font-size: 1vw;
 }
